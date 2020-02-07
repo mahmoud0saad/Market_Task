@@ -2,4 +2,4 @@
 
 ### Downlaod 
 
-the google drive link : http://bit.ly/2UzuVHx
+APK File : http://bit.ly/2UzuVHx
