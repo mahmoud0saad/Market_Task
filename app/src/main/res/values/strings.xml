@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Market</string>
+
+    <string name="slide_title_first">mauris pharetra nisl eget</string>
+    <string name="slide_description_first">Lorem ipsum dolor sit amet consetetur adipiscing elit Cras nec nunc uma Nunc vel consequat augue . Donec gravida luctus justo , eu sagittis ipsum elementum aliquet.</string>
+
+    <string name="slide_title_secon">mauris pharetra nisl eget</string>
+    <string name="slide_description_second">Lorem ipsum dolor sit amet consetetur adipiscing elit Cras nec nunc uma Nunc vel consequat augue . Donec gravida luctus justo , eu sagittis ipsum elementum aliquet.</string>
+
+    <string name="slide_title_third">mauris pharetra nisl eget</string>
+    <string name="slide_description_third">Lorem ipsum dolor sit amet consetetur adipiscing elit Cras nec nunc uma Nunc vel consequat augue . Donec gravida luctus justo , eu sagittis ipsum elementum aliquet.</string>
+    <string name="got_it_button">got it</string>
+    <string name="ad_banner_text">Proin vestibulum eros ipsum, in aliquet elit interdum et.</string>
+    <string name="category_response_key">categry_response_selected_key</string>
+    <string name="intent_product_item_key">intent_product_item_key</string>
+    <string name="sort_by_text">Sort by</string>
+    <string name="filter_text">Filter</string>
+    <string name="home_title">Home</string>
+
+</resources>

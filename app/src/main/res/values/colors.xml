@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#CC5252</color>
+    <color name="colorAccent">#FD6868</color>
+
+    <color name="button_got_it_color">#FD6868</color>
+    <color name="slider_intro_dot_active">#FD6868</color>
+    <color name="slider_intro_dot_inactive">#fff</color>
+    <color name="white">#fff</color>
+    <color name="intro_slider_background_color">#F1F1F1</color>
+    <color name="black">#000</color>
+    <color name="ad_banner_background_color">#F9EC2C</color>
+
+    <color name="sort_filter_button_color">#FE6869</color>
+
+    <color name="fab_active_color">#FD6768</color>
+    <color name="fab_inactive_color">#D3D3D3</color>
+
+    <color name="shimmer_gray">#C7C0C0</color>
+
+
+</resources>

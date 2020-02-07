@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/margin_2"
+    android:layout_width="match_parent"
+    android:background="@color/ad_banner_background_color"
+    android:layout_height="@dimen/height_ad_banner_size">
+
+    <ImageView
+        android:id="@+id/category_image_view"
+        android:src="@drawable/ad_banner_icon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ad_banner_text_view"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ad_banner_text_size"
+        android:layout_gravity="center"
+        android:text="@string/ad_banner_text" />
+
+
+</LinearLayout>

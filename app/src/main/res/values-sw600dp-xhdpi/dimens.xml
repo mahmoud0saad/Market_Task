@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--+14-->
+
+    <dimen name="intro_slide_title_size">30sp</dimen>
+
+    <dimen name="intro_slide_description_size">28sp</dimen>
+    <dimen name="category_name_text_size">28sp</dimen>
+    <dimen name="category_image_size">260dp</dimen>
+    <dimen name="ad_banner_text_size">26sp</dimen>
+    <dimen name="margin_recycler_view">16dp</dimen>
+    <dimen name="sort_filter_text_size">30sp</dimen>
+    <dimen name="width_image_button_product">38dp</dimen>
+    <dimen name="height_slider_home_size">260dp</dimen>
+    <dimen name="margin_2">16dp</dimen>
+    <dimen name="height_image_product_list_size">280dp</dimen>
+    <dimen name="product_title_size">34sp</dimen>
+    <dimen name="height_product_image_size">280dp</dimen>
+    <dimen name="margin_circle_button">28dp</dimen>
+    <dimen name="margin_8">22dp</dimen>
+    <dimen name="product_price_text_size">32sp</dimen>
+    <dimen name="product_weight_text_size">32sp</dimen>
+    <dimen name="product_name_text_size">34sp</dimen>
+    <dimen name="slider_description_margin">26sp</dimen>
+    <dimen name="height_ad_banner_size">120dp</dimen>
+</resources>
