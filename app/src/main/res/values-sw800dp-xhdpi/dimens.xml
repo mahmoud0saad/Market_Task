@@ -4,7 +4,7 @@
     <dimen name="intro_slide_title_size">34sp</dimen>
 
     <dimen name="intro_slide_description_size">32sp</dimen>
-    <dimen name="category_name_text_size">32sp</dimen>
+    <dimen name="category_name_text_size">36sp</dimen>
     <dimen name="category_image_size">280dp</dimen>
     <dimen name="ad_banner_text_size">30sp</dimen>
     <dimen name="margin_recycler_view">20dp</dimen>
@@ -21,5 +21,5 @@
     <dimen name="product_weight_text_size">36sp</dimen>
     <dimen name="product_name_text_size">38sp</dimen>
     <dimen name="slider_description_margin">30sp</dimen>
-    <dimen name="height_ad_banner_size">120dp</dimen>
+    <dimen name="height_ad_banner_size">200dp</dimen>
 </resources>

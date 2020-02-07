@@ -22,7 +22,7 @@
             android:layout_alignBottom="@+id/category_image_view"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_8"
-            android:textColor="@color/white"
+            android:textColor="@color/category_title_color"
             android:textSize="@dimen/category_name_text_size"
             android:layout_alignParentLeft="true" />
     </RelativeLayout>

@@ -1,14 +1,13 @@
 package com.mahmoudsaad.market.ui.activity.products;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.ViewModelProviders;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.google.android.material.tabs.TabLayout;
 import com.mahmoudsaad.market.R;
@@ -71,6 +70,8 @@ public class ProductsActivity extends BaseActivity {
 
             Picasso.get()
                     .load(mCategoryResponse.getCategoryImg())
+                    .placeholder(R.drawable.loading_placeholder)
+                    .error(R.drawable.error_placeholder)
                     .into(mProductsBinding.toolbarImageView);
 
             mProductsBinding.titleToolbar.setText(mCategoryResponse.getName());

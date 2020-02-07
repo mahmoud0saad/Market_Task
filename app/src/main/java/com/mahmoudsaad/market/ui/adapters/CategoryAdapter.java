@@ -7,7 +7,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.mahmoudsaad.market.R;
@@ -70,6 +69,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     public void setmItemList(List<CategoryResponse> CategoryResponseList) {
         if (CategoryResponseList==null)return;
+        mItemList.clear();
         mItemList.addAll(CategoryResponseList);
         notifyDataSetChanged();
     }
@@ -103,6 +103,8 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
             Picasso.get()
                     .load(categoryResponse.getCategoryImg())
+                    .placeholder(R.drawable.loading_placeholder)
+                    .error(R.drawable.error_placeholder)
                     .into(mCategoryImageView);
 
 

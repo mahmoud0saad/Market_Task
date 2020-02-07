@@ -18,6 +18,7 @@
     <color name="fab_inactive_color">#D3D3D3</color>
 
     <color name="shimmer_gray">#C7C0C0</color>
+    <color name="category_title_color">#F0ECE9</color>
 
 
 </resources>

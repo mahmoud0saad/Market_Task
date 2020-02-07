@@ -8,11 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.mahmoudsaad.market.R;
 import com.mahmoudsaad.market.data.entites.ProductsItem;
 import com.mahmoudsaad.market.data.interfaces.ProductClick;
@@ -91,6 +88,8 @@ public class RecyclerProductAdapter extends RecyclerView.Adapter<RecyclerProduct
 
             Picasso.get()
                     .load(productsItem.getProductImg())
+                    .placeholder(R.drawable.loading_placeholder)
+                    .error(R.drawable.error_placeholder)
                     .into(mProductImageView);
 
             mNameTextView.setText(productsItem.getName());
